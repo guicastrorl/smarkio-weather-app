@@ -42,7 +42,8 @@ criar o banco de dados "historico";
 ```
 CREATE DATABASE historico;
 ```
-mudar a senha no app
+mudar a senha do banco de dados no app
+a linha xx só deve ser executada na primeira vez, depois, é necessário comentá-la.
 
 Obs: possiveis falhas
 - conexão com bd
