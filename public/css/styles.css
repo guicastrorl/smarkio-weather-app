@@ -1,0 +1,97 @@
+* {
+  padding: 0px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  border-bottom: 1px solid;
+  width: 100%;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+} 
+
+p {
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(98, 148, 223);
+  width: 150px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+input {
+  margin-right: 10px;
+}
+
+#container {
+  width: 100% - 100px;
+  height: 100vh;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#box {
+  margin: 10px;
+  padding: 10px;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  background-color: #72C0DC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+ul#infos li {
+  font-size: 24px;
+  display: inline-block;
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+#historic {
+  height: 50%;
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+#search {
+  margin-bottom: 30px;
+}
+
+#img {
+  width: 180px;
+  height: 180px;
+  margin-top: -20px;
+}
+
+input {
+  border-radius: 10px;
+  height: 20px;
+}
+
+#logo {
+  position: absolute;
+  top: 570px;
+  left: 255px;
+}

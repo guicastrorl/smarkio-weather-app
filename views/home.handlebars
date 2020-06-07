@@ -1,0 +1,45 @@
+<div id="container">
+
+  <div id="box">
+
+    <div id="search">
+      <h1>Search</h1>
+      <input id="input" type="select" size="50" autofocus placeholder=" Type your search here and press ENTER...">
+    </div>
+
+    <div id="informations">
+      <span id="city">Itajubá, BR</span>
+      <ul id="infos">
+        <li id="temperature">27 ºC</li>
+        <li id="weather">Ensolarado</li>
+        <li id="humidity">41 % HR</li>
+        <li><img id="img" src="http://openweathermap.org/img/wn/01d@2x.png"></li>
+      </ul>
+    </div>
+    <a href="https://www.smarkio.com.br/">
+      <img id="logo" src="https://www.smarkio.com.br/wp-content/uploads/2018/08/logo-branca.png" alt="logo-smarkio">
+    </a>
+
+  </div>
+
+  <div id="box">
+
+    <div id="historic">
+      <h1>Historic</h1>
+      <ul id="realTimeHistory">
+        <li></li>
+      </ul>
+    </div>
+
+    <div id="topfive">
+      <h1>Top Five Search</h1>
+      <div id="historic">
+        {{#each posts}}
+        <p>{{dataValues.name}}</p>
+        {{/each}}
+      </div>
+    </div>
+
+  </div>
+
+</div>
