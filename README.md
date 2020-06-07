@@ -19,18 +19,31 @@ mkdir nome
 ```
 cd nome
 ```
+
 2 - Clone o projeto no diretório que acabou de criar executando o comando:
 ```
 git clone https://github.com/guicastrorl/smarkio-weather-app
 ```
+
 3 - Baixe as dependências necessárias para rodar o projeto:
 ```
 npm install
 ```
-4 - npm start
+
+4 - Carregue o frontend:
+```
+node app.js
+```
 
 5 - Conecte ao MySQL
-
+fazer download mysql
+criar uma conta
+criar o banco de dados "historico";
+```
 CREATE DATABASE historico;
+```
+mudar a senha no app
 
-6 - node app.js
+Obs: possiveis falhas
+- conexão com bd
+- só atualiza bd com o botão de atualizar
