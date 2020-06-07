@@ -42,7 +42,10 @@ criar o banco de dados "historico";
 ```
 CREATE DATABASE historico;
 ```
-mudar a senha do banco de dados no app
+```
+USE historico;
+```
+Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p. Password = admin
 a linha xx só deve ser executada na primeira vez, depois, é necessário comentá-la.
 
 Obs: possiveis falhas
