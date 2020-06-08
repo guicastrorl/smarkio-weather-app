@@ -43,7 +43,7 @@ npm install
 ```
 mysql -h localhost -u root -p
 ```
-> Obs: Caso não dê certo, pode ser necessário colocar suas credenciais de usuário e senha no arquivo "./models/db.js" para acessar o banco de dados. 
+> Obs: Caso não dê certo, pode ser necessário colocar suas credenciais de usuário e senha no arquivo './models/db.js' para acessar o banco de dados. 
 
 - Excutar os seguintes comandos:
 ```
