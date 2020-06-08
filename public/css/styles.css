@@ -91,7 +91,7 @@ input {
 }
 
 #logo {
-  position: absolute;
-  top: 570px;
-  left: 255px;
+  position:absolute;
+  top:90%;
+  left: 19%;
 }
