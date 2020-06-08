@@ -36,20 +36,18 @@ npm install
 ```
 
 ### 5 - Conecte ao MySQL
-- Fazer download do MySQL pelo link: [MySQL](https://www.mysql.com/downloads/)
-- Criar uma conta no Mysql
-- Configurar a variavel de ambiente path: " C:\Program Files\MySQL\MySQL Server 8.0\bin"
-- Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p Qwerty123
-
-### 6 - Criar o banco de dados "historico";
-No MySQL workbench, excutar os seguintes comandos:
+- Fazer download do MySQL pelo link: [MySQL](https://www.mysql.com/downloads/);
+- Criar uma conta no Mysql;
+- Configurar a variavel de ambiente path: " C:\Program Files\MySQL\MySQL Server 8.0\bin";
+- Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p Qwerty123;
+- Excutar os seguintes comandos:
 ```
 CREATE DATABASE historico;
 ```
 ```
 USE historico;
 ```
-
+Obs: Chueque se realmente está usando o database que acabou de criar.
 ### 7 - Carregue o frontend:
 *Execute a linha 12 do arquivo "./models/Post.js" apenas na primeia vez que rodar o arquivo "app.js", depois, comente-a com "//historics.sync({ force: true })"*
 ```
