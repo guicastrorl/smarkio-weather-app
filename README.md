@@ -57,7 +57,7 @@ Obs: Verifique se realmente está usando o database que acabou de criar.
 npm start
 ```
 
-Obs: Caso não excute esse comando no prompt de comando, volte para o passo 5 executando-o no terminal do Visual Studio Code.
+Obs: Caso não excute esse comando no prompt de comando, execute-o no terminal do Visual Studio Code.
 
 ### 8 - Entre no endereço: https://localhost:3000
 
