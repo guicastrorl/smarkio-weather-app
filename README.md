@@ -51,13 +51,15 @@ CREATE DATABASE historico;
 USE historico;
 ```
 Obs: Verifique se realmente está usando o database que acabou de criar.
+
 ### 7 - Carregue o frontend:
-*Execute a linha 12 do arquivo "./models/Post.js" apenas na primeia vez que rodar o arquivo "app.js", depois, comente-a com "//historics.sync({ force: true })"*
 ```
 npm start
 ```
 
 Obs: Caso não excute esse comando no prompt de comando, execute-o no terminal do Visual Studio Code.
+
+*Execute a linha 12 do arquivo "./models/Post.js" apenas na primeira vez que excutar o comando acima, depois, comente-a com "//historics.sync({ force: true })"*
 
 ### 8 - Entre no endereço: https://localhost:3000
 
