@@ -9,6 +9,6 @@ const historics = db.sequelize.define('historics', {
   }
 });
 
-//historics.sync({ force: true })
+historics.sync({ force: true })
 
 module.exports = historics;
