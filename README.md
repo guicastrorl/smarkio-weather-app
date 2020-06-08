@@ -39,7 +39,10 @@ npm install
 - Fazer download do MySQL pelo link: [MySQL](https://www.mysql.com/downloads/);
 - Criar uma conta no Mysql;
 - Configurar a variavel de ambiente path: " C:\Program Files\MySQL\MySQL Server 8.0\bin";
-- Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p
+- Checar usuário MySQL:
+```
+mysql -h localhost -u root -p
+```
 - Excutar os seguintes comandos:
 ```
 CREATE DATABASE historico;
@@ -54,7 +57,7 @@ Obs: Chueque se realmente está usando o database que acabou de criar.
 npm start
 ```
 
-Obs: Caso não excute esse comando no prompt de comando, execute o passo 4 no terminal do Visual Studio Code e depois continue a partir do passo 7.
+Obs: Caso não excute esse comando no prompt de comando, volte para o passo 5 executando-o no terminal do Visual Studio Code.
 
 ### 8 - Entre no endereço: https://localhost:3000
 
