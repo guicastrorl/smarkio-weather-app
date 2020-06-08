@@ -4,7 +4,7 @@ Node API + MySQL
 
 ### API utilizada:
 
-[OpenWeatherMap](https://openweathermap.com)
+- [OpenWeatherMap](https://openweathermap.com)
 
 ### Descrição:
 
@@ -46,7 +46,7 @@ USE historico;
 ```
 
 ### 6 - Carregue o frontend:
-*Execute a linha 12 do arquivo "Post.js" que está na pasta "models" apenas na primeia vez que rodar o arquivo app.js, depois, comente-a com "//historics.sync({ force: true })"*
+*Execute a linha 12 do arquivo "./models/Post.js" apenas na primeia vez que rodar o arquivo "app.js", depois, comente-a com "//historics.sync({ force: true })"*
 ```
 npm start
 ```
