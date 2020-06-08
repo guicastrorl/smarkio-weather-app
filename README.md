@@ -8,7 +8,7 @@ Node API + MySQL
 
 ### Descrição:
 
-A interface retorna os dados de temperatura, condição climática e umidade, mostra o histórico de buscas em tempo real e coleta dados do banco de dados para mostrar o histórico das cidades que foram mais pesquisadas pela aplicação.
+  A interface retorna os dados de temperatura, condição climática e umidade, mostra o histórico de buscas em tempo real e coleta dados do banco de dados para mostrar o histórico das cidades que foram mais pesquisadas pela aplicação.
 
 ### Instruções para execução do projeto:
 
@@ -43,7 +43,7 @@ npm install
 ```
 mysql -h localhost -u root -p
 ```
-Obs: Caso não dê certo, pode ser necessário colocar suas credenciais de usuário e senha no arquivo "./models/db.js" para acessar o banco de dados. 
+> Obs: Caso não dê certo, pode ser necessário colocar suas credenciais de usuário e senha no arquivo "./models/db.js" para acessar o banco de dados. 
 
 - Excutar os seguintes comandos:
 ```
@@ -52,16 +52,16 @@ CREATE DATABASE historico;
 ```
 USE historico;
 ```
-Obs: Verifique se realmente está usando o database que acabou de criar.
+> Obs: Verifique se realmente está usando o database que acabou de criar.
 
 ### 7 - Carregue o frontend:
 ```
 npm start
 ```
 
-Obs: Caso não excute esse comando no prompt de comando, execute-o no terminal do Visual Studio Code.
+> Obs: Caso não excute esse comando no prompt de comando, execute-o no terminal do Visual Studio Code.
 
-*Execute a linha 12 do arquivo "./models/Post.js" apenas na primeira vez que excutar o comando acima, depois, comente-a com "//historics.sync({ force: true })"*
+***Execute a linha 12 do arquivo "./models/Post.js" apenas na primeira vez que excutar o comando acima, depois, comente-a com "//historics.sync({ force: true })"***
 
 ### 8 - Entre no endereço: https://localhost:3000
 
