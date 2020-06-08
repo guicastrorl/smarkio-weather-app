@@ -8,7 +8,7 @@ Node API + MySQL
 
 ### Descrição:
 
-A interface retorna os dados de previsão do tempo, umidade e temperatura, mostra o histórico de buscas em tempo real e mostra o histórico de cidades que foram mais pesquisadas.
+A interface retorna os dados de temperatura, condição climática e umidade, mostra o histórico de buscas em tempo real e coleta dados do banco de dados para mostrar o histórico das cidades que foram mais pesquisadas pela aplicação.
 
 ### Instruções para execução do projeto:
 
@@ -25,7 +25,7 @@ cd nome
 git clone https://github.com/guicastrorl/smarkio-weather-app
 ```
 
-### 3 - Excute o comendo para entrar na pasta do app:
+### 3 - Excute o comando para entrar na pasta do app:
 ```
 cd smarkio-weather-app
 ```
