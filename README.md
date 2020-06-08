@@ -25,19 +25,24 @@ cd nome
 git clone https://github.com/guicastrorl/smarkio-weather-app
 ```
 
-### 3 - Baixe as dependências necessárias para rodar o projeto:
+### 3 - Excute o comendo para entrar na pasta do app:
+```
+cd smarkio-weather-app
+```
+
+### 4 - Baixe as dependências necessárias para rodar o projeto:
 ```
 npm install
 ```
 
-### 4 - Conecte ao MySQL
+### 5 - Conecte ao MySQL
 - Fazer download do MySQL pelo link: [MySQL](https://www.mysql.com/downloads/)
 - Criar uma conta no Mysql
 - Configurar a variavel de ambiente path: " C:\Program Files\MySQL\MySQL Server 8.0\bin"
 - Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p. Password = admin
 - Colocar sua senha MySQL no arquivo "./models/db.js" onde está escrito a palavra "senha"
 
-### 5 - Criar o banco de dados "historico";
+### 6 - Criar o banco de dados "historico";
 ```
 CREATE DATABASE historico;
 ```
@@ -45,13 +50,13 @@ CREATE DATABASE historico;
 USE historico;
 ```
 
-### 6 - Carregue o frontend:
+### 7 - Carregue o frontend:
 *Execute a linha 12 do arquivo "./models/Post.js" apenas na primeia vez que rodar o arquivo "app.js", depois, comente-a com "//historics.sync({ force: true })"*
 ```
 npm start
 ```
 
-### 7 - Entre no endereço: https://localhost:3000
+### 8 - Entre no endereço: https://localhost:3000
 
 ### Obs: Possíveis falhas:
 - Conexão com banco de dados;
