@@ -50,7 +50,7 @@ CREATE DATABASE historico;
 ```
 USE historico;
 ```
-Obs: Chueque se realmente está usando o database que acabou de criar.
+Obs: Verifique se realmente está usando o database que acabou de criar.
 ### 7 - Carregue o frontend:
 *Execute a linha 12 do arquivo "./models/Post.js" apenas na primeia vez que rodar o arquivo "app.js", depois, comente-a com "//historics.sync({ force: true })"*
 ```
