@@ -39,7 +39,8 @@ npm install
 - Fazer download do MySQL pelo link: [MySQL](https://www.mysql.com/downloads/);
 - Criar uma conta no Mysql;
 - Configurar a variavel de ambiente path: " C:\Program Files\MySQL\MySQL Server 8.0\bin";
-- Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p Qwerty123;
+- Mudar a palavra "senha" na linha 12 do arquivo "./models/db.js" com suas credenciais de banco de dados;
+- Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p password;
 - Excutar os seguintes comandos:
 ```
 CREATE DATABASE historico;
