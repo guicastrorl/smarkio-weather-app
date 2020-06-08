@@ -42,6 +42,7 @@ npm install
 - Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p Qwerty123
 
 ### 6 - Criar o banco de dados "historico";
+No MySQL workbench, excutar os seguintes comandos:
 ```
 CREATE DATABASE historico;
 ```
@@ -54,6 +55,8 @@ USE historico;
 ```
 npm start
 ```
+
+Obs: Caso não excute esse comando no prompt de comando, execute o passo 3 no terminal de Visual Studio Code e depois continue a partir do passo 7.
 
 ### 8 - Entre no endereço: https://localhost:3000
 
