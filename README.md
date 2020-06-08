@@ -58,6 +58,6 @@ Obs: Caso não excute esse comando no prompt de comando, execute o passo 3 no te
 
 ### 8 - Entre no endereço: https://localhost:3000
 
-### Obs: Possíveis falhas:
+### Possíveis falhas:
 - Conexão com banco de dados;
 - Só atualiza banco de dados com o atualizar.
