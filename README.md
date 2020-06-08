@@ -35,6 +35,7 @@ npm install
 - Criar uma conta no Mysql
 - Configurar a variavel de ambiente path: " C:\Program Files\MySQL\MySQL Server 8.0\bin"
 - Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p. Password = admin
+- Colocar sua senha MySQL no arquivo "./models/db.js" onde está escrito a palavra "senha"
 
 ### 5 - Criar o banco de dados "historico";
 ```
@@ -44,15 +45,14 @@ CREATE DATABASE historico;
 USE historico;
 ```
 
-*Execute a linha 12 do arquivo "Post.js" que está na pasta "models" apenas na primeia vez que rodar o arquivo app.js, depois, comente-a com "//historics.sync({ force: true })"*
-
 ### 6 - Carregue o frontend:
+*Execute a linha 12 do arquivo "Post.js" que está na pasta "models" apenas na primeia vez que rodar o arquivo app.js, depois, comente-a com "//historics.sync({ force: true })"*
 ```
 npm start
 ```
 
 ### 7 - Entre no endereço: https://localhost:3000
 
-Obs: possiveis falhas
+### Obs: Possíveis falhas:
 - Conexão com banco de dados;
 - Só atualiza banco de dados com o atualizar.
