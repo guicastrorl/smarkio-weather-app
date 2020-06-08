@@ -30,11 +30,13 @@ git clone https://github.com/guicastrorl/smarkio-weather-app
 npm install
 ```
 
-### 3 - Conecte ao MySQL
+### 4 - Conecte ao MySQL
 - Fazer download do MySQL pelo link: [MySQL](https://www.mysql.com/downloads/)
 - Criar uma conta no Mysql
-Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p. Password = admin
-criar o banco de dados "historico";
+- Configurar a variavel de ambiente path: " C:\Program Files\MySQL\MySQL Server 8.0\bin"
+- Checar usuário MySQL -> No cmd, digite: mysql -h localhost -u root -p. Password = admin
+
+### 5 - Criar o banco de dados "historico";
 ```
 CREATE DATABASE historico;
 ```
@@ -42,14 +44,14 @@ CREATE DATABASE historico;
 USE historico;
 ```
 
-### 4 - Execute a linha 12 do arquivo "Post.js" que está na pasta "models" apenas na primeia vez que rodar o arquivo app.js, depois, comente-a com "//historics.sync({ force: true })"
+*Execute a linha 12 do arquivo "Post.js" que está na pasta "models" apenas na primeia vez que rodar o arquivo app.js, depois, comente-a com "//historics.sync({ force: true })"*
 
-### 5 - Carregue o frontend:
+### 6 - Carregue o frontend:
 ```
 npm start
 ```
 
-### 6 - Entre no endereço: https://localhost:3000
+### 7 - Entre no endereço: https://localhost:3000
 
 Obs: possiveis falhas
 - Conexão com banco de dados;
