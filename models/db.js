@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
 //Conexão com BD MYSQL
-const sequelize = new Sequelize('historico', 'root', 'g11c17r94', {
+const sequelize = new Sequelize('historico', 'root', 'senha', {
   host: 'localhost',
   dialect: 'mysql'
 });
